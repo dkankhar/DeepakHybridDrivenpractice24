@@ -34,4 +34,8 @@ public class LoginPage extends ControlActions {
 	public void clickLogin() {
 		clickElement(loginButtonElement);
 	}
+	
+	public void loginSuccessfulCheck() {
+		
+	}
 }

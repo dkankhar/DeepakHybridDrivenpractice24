@@ -9,5 +9,6 @@ public class LoginTest extends TestBase{
 		loginPage.enterUname();
 		loginPage.enterPassword();
 		loginPage.clickLogin();
+		dashboardPage.pageTitleVerification("Employee Management");
 	}
 }
