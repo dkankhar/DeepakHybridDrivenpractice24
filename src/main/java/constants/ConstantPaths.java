@@ -6,5 +6,6 @@ public class ConstantPaths {
 	public static final String PROPERTY_FILEPATH= MAIN_RESOURCES+"/config/config.properties";
 	public static final String CHROME_DRIVER = "webdriver.chrome.driver";
 	public static final String CHROME_DRIVER_PATH = TEST_RESOURCES+"/chromeDriver/chromedriver.exe";
+	public final static int WAIT = 10;
 	
 }
